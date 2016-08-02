@@ -108,13 +108,48 @@ a:hover {
     padding: 0 0.5em;
 }
 
+/******** Navigation ********/
+
+nav {
+    margin: 40px 0 0 0;
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 2em 0 2em 0;
+}
+
+nav ul li {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    display: inline;
+    text-transform: uppercase;
+}
+
+nav a {
+    border: none;
+    padding: 0 0.5em 0 0.5em;
+    transition: all 0.1s ease-in-out;
+}
+
+nav a:hover {
+    border: none;
+    background-color: #cccccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 /******** Main Content ********/
 
 main {
     background-color: #ffffff;
     max-width: 1000px;
     padding: 10px 15px;
-    margin: 40px 0;
+    margin: 0 0 40px 0;
 }
 
 section {

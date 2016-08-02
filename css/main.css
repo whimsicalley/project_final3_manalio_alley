@@ -63,7 +63,6 @@ h3 {
     text-transform: uppercase;
     color: #2a2a92;
     font-size: 1.75em;
-    margin: -20px 0 20px 0;
 }
 
 p {
@@ -290,4 +289,12 @@ footer p {
 
 .food-desc {
     clear: both;
+}
+
+/********* CONTACT PAGE *********/
+
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 20px;
 }

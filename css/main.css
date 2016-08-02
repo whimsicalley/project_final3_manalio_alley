@@ -1,0 +1,18 @@
+/* Colors:
+
+Red: #ef4025
+Dark Copper: #ba553a
+Light Copper: #f58c66
+Blue: #2a2a92
+
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}

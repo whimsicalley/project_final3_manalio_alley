@@ -149,7 +149,6 @@ main {
     background-color: #ffffff;
     max-width: 1000px;
     padding: 10px 15px;
-    margin: 0 0 40px 0;
 }
 
 section {
@@ -208,6 +207,19 @@ section + section {
     .rightimg {
         margin-left: 10px;
     }
+}
+
+/******** Footer ********/
+
+footer {
+    margin: 0 0 40px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0;
+    padding-bottom: 15px;
 }
 
 /******** Button ********/

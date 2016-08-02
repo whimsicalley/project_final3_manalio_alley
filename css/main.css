@@ -36,3 +36,197 @@ body {
     position: absolute;
     width: 1px;
 }
+
+.group::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+h3 {
+    font-family: Alex;
+    font-size: 4em;
+    color: #ef4025;
+    text-align: center;
+    margin-top: 0;
+}
+
+@media all and (min-width: 600px) {
+    h3 {
+        font-size: 3em;
+        text-align: left;
+    }
+}
+
+h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    color: #2a2a92;
+    font-size: 1.75em;
+    margin: -20px 0 20px 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #494949;
+}
+
+/******** Links ********/
+
+a {
+    color: #ef4025;
+    text-decoration: none;
+    border-bottom: 1px solid #ef4025;
+    padding-bottom: 1px;
+}
+
+a:hover {
+    color: #ba553a;
+    border-bottom: 3px solid #ba553a;
+}
+
+/******** Wrappers ********/
+
+.headerwrapper {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/******** Logo ********/
+
+.logo {
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 0 0.5em;
+}
+
+/******** Main Content ********/
+
+main {
+    background-color: #ffffff;
+    max-width: 1000px;
+    padding: 10px 15px;
+    margin: 40px 0;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+}
+
+section + section {
+    padding-top: 2em;
+}
+
+@media all and (min-width: 850px) {
+    .copy {
+        width: 80%;
+    }
+}
+
+.images {
+    width: 80%;
+    margin: auto;
+}
+
+.images article img {
+    max-width: 500px;
+    border: 1px #666666 solid;
+    padding: 0.3em;
+    width: 100%;
+}
+
+.bowtie {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+@media all and (min-width: 600px) {
+    .images article img {
+        max-width: 100%;
+        border: 1px #666666 solid;
+        padding: 0.3em;
+        margin-top: 1em;
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .images article img {
+        max-width: 375px;
+        border: 1px #666666 solid;
+        padding: 0.3em;
+        float: left;
+        width: 50%;
+        margin-top: 1em;
+    }
+    .rightimg {
+        margin-left: 10px;
+    }
+}
+
+/******** Button ********/
+
+.buttonwrapper {
+    padding-top: 1em;
+    display: inline-block;
+}
+
+.button {
+    padding-top: 1em;
+    display: inline-block;
+}
+
+.button + .button {
+    padding-left: 1.5em;
+}
+
+.button a {
+    border: 3px solid #ba553a;
+    text-decoration: none;
+    padding: 0.6em 2em;
+    color: #ba553a;
+    letter-spacing: 1px;
+}
+
+.button a:hover {
+    border: 3px solid #f58c66;
+    background-color: #f58c66;
+    color: white;
+}
+
+/******** Full-width Colors ********/
+
+#top,
+#bottom {
+    background: none;
+}
+
+@media all and (min-width: 1100px) {
+    #top,
+    #bottom {
+        background: #ef4025;
+        position: fixed;
+        left: 0;
+        right: 0;
+        height: 10px;
+    }
+
+    #top {
+        top: 0;
+    }
+
+    #bottom {
+        bottom: 0;
+    }
+}

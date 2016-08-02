@@ -43,7 +43,7 @@ body {
     clear: both;
 }
 
-h3 {
+h2 {
     font-family: Alex;
     font-size: 4em;
     color: #ef4025;
@@ -52,13 +52,13 @@ h3 {
 }
 
 @media all and (min-width: 600px) {
-    h3 {
+    h2 {
         font-size: 3em;
         text-align: left;
     }
 }
 
-h4 {
+h3 {
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     color: #2a2a92;
@@ -276,4 +276,18 @@ footer p {
     #bottom {
         bottom: 0;
     }
+}
+
+/********* MENU PAGE *********/
+
+.name {
+    float: left;
+}
+
+.price {
+    float: right;
+}
+
+.food-desc {
+    clear: both;
 }

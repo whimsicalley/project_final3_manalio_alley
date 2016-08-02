@@ -16,3 +16,7 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+body {
+    background-image: url("../img/paper-bg.jpg");
+}

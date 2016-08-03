@@ -55,6 +55,7 @@ h2 {
     h2 {
         font-size: 3em;
         text-align: left;
+        padding-left: 2em;
     }
 }
 
@@ -297,4 +298,99 @@ form input,
 form textarea {
     display: block;
     margin-bottom: 20px;
+}
+
+
+
+
+
+/* overall container */
+
+.mix-it-up-container {
+    padding: 2%;
+}
+
+label {
+    font-weight: 300;
+    margin: 0 0.4em 0 0;
+}
+
+button {
+    display: inline-block;
+    padding: 0.4em 0.8em;
+    background: #666666;
+    border: 0;
+    color: #dddddd;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.active {
+    background: red;
+}
+
+button:focus {
+    outline: 0 none;
+}
+
+/* individual categories */
+
+.drinks {
+    border-right: 4px solid gold;
+}
+
+.wine {
+    border-right: 4px solid red;
+}
+
+.appetizers {
+    border-right: 4px solid green;
+}
+
+.entrees {
+    border-right: 4px solid blue;
+}
+
+.desserts {
+    border-right: 4px solid brown;
+}
+
+/* container for the content */
+
+.mix-it-content-container {
+    padding: 2% 2% 0;
+    text-align: justify;
+    background: #eaeaea;
+}
+
+.mix-it-content-container .mix,
+.mix-it-content-container .gap {
+    display: inline-block;
+    width: 49%;
+    height: auto;
+}
+
+.mix-it-content-container .mix {
+    padding: 1%;
+    text-align: left;
+    background: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    display: none;
+}
+
+@media all and (min-width: 420px) {
+    .mix-it-content-container .mix,
+    .mix-it-content-container .gap {
+        width: 32%;
+    }
+}
+
+@media all and (min-width: 640px) {
+    .mix-it-content-container .mix,
+    .mix-it-content-container .gap {
+        width: 23.5%;
+    }
 }

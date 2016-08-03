@@ -37,6 +37,144 @@
         <main>
             <h2>Menu</h2>
             <section class="copy">
+
+
+
+                <div class="mix-it-up-container">
+                    <label>Menu Filter:</label>
+                    <button class="filter" data-filter="all">All</button>
+                    <button class="filter" data-filter=".drinks">Les Boissons (Drinks)</button>
+                    <button class="filter" data-filter=".wine">Le Vin</button>
+                    <button class="filter" data-filter=".appetizers">Hors d'Oeuvres</button>
+                    <button class="filter" data-filter=".entrees">Entrée</button>
+                    <button class="filter" data-filter=".desserts">Les Desserts</button>
+                </div>
+
+                <div id="Container" class="mix-it-content-container">
+                    <!-- DRINKS -->
+                    <div class="mix drinks" data-myorder="1">
+                        <p class="name">Tisane</p>
+                        <p class="food-desc">"Tea." Herbs steeped in boiled water.</p>
+                        <p class="price">$2</p>
+                    </div>
+                    <div class="mix drinks" data-myorder="2">
+                        <p class="name">Café au lait</p>
+                        <p class="food-desc">Pressed coffee with steamed milk.</p>
+                        <p class="price">$2</p>
+                    </div>
+                    <div class="mix drinks" data-myorder="1">
+                        <p class="name">Chocolat Chaud</p>
+                        <p class="food-desc">Whole milk blended with finely-chopped bittersweet chocolate. Great for those cold Parisian nights.</p>
+                        <p class="price">$4</p>
+                    </div>
+                    <div class="mix drinks" data-myorder="4">
+                        <p class="name">Coca-Cola</p>
+                        <p class="food-desc">The traditional soft drink, served in its classic glass bottle.</p>
+                        <p class="price">$2</p>
+                    </div>
+                    <div class="mix drinks" data-myorder="5">
+                        <p class="name">Pellegrino</p>
+                        <p class="food-desc">Sparkling mineral water.</p>
+                        <p class="price">$3</p>
+                    </div>
+                    <div class="mix wine" data-myorder="6">
+                        <p class="name">Chardonnay</p>
+                        <p class="food-desc">A dry, full-bodied white wine with rich citrus flavors.</p>
+                        <p class="price">$8</p>
+                    </div>
+                    <div class="mix wine" data-myorder="7">
+                        <p class="name">Pinot Grigio</p>
+                        <p class="food-desc">A semi-sweet white wine with mild floral flavors.</p>
+                        <p class="price">$7</p>
+                    </div>
+                    <div class="mix wine" data-myorder="8">
+                        <p class="name">Cabernet Sauvignon</p>
+                        <p class="food-desc">A full-bodied red wine with dark fruit and savory flavors.</p>
+                        <p class="price">$8</p>
+                    </div>
+                    <div class="mix wine" data-myorder="5">
+                        <p class="name">Merlot</p>
+                        <p class="food-desc">A rich red wine with bold fruit flavors.</p>
+                        <p class="price">$9</p>
+                    </div>
+                    <div class="mix appetizers">
+                        <p class="name">Croissant aux escargots</p>
+                        <p class="food-desc">Delicious, buttery escargot mixed with garlic and stuffed within a warm croissant.</p>
+                        <p class="price">$9</p>
+                    </div>
+                    <div class="mix appetizers">
+                        <p class="name">Soupe à L’oignon</p>
+                        <p class="food-desc">Taste our traditional french onion soup. Carmelized onions in a beef broth and sherry, layered beneath a slice of toasted baguette. Topped with melted cheese.</p>
+                        <p class="price">$7</p>
+                    </div>
+                    <div class="mix appetizers">
+                        <p class="name">Fondue Savoyarde</p>
+                        <p class="food-desc">Our famous melted cheese fondue, served with bread. Best for groups of four or larger.</p>
+                        <p class="price">$16</p>
+                    </div>
+                    <div class="mix appetizers">
+                        <p class="name">Dill Crêpes aux Smoked Salmon </p>
+                        <p class="food-desc">Delicious combination of thin crepes, rolled with thinly-sliced salmon.</p>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="mix appetizers">
+                        <p class="name">Classic Salad</p>
+                        <p class="food-desc">Cucumbers, tomatoes, and carrots nestled on a fresh bed of lettuce. Served with our house dijon dressing. </p>
+                        <p class="price">$6</p>
+                    </div>
+                    <div class="mix entrees">
+                        <p class="name">Beef Bourguignon</p>
+                        <p class="food-desc">Browned steak simmered in broth and red wine. Served with red potatoes, onions, and mushrooms.</p>
+                        <p class="price">$18</p>
+                    </div>
+                    <div class="mix entrees">
+                        <p class="name">Ratatouille</p>
+                        <p class="food-desc">Our award-winning vegetable dish consisting of roasted, thinly-sliced onions, zucchini, tomatoes, eggplant, and squash. Served with a cup of brown rice.</p>
+                        <p class="price">$16</p>
+                    </div>
+                    <div class="mix entrees">
+                        <p class="name">Veal Cordon Bleu</p>
+                        <p class="food-desc">Pounded veal wrapped around cheese and sliced ham. Served with broccoli and roasted carrots.</p>
+                        <p class="price">$18</p>
+                    </div>
+                    <div class="mix entrees">
+                        <p class="name">Steak Tartare</p>
+                        <p class="food-desc">Our finest quality raw steak mixed with raw egg, onion, and a secret combination of spices. Served with thinly sliced baguette.</p>
+                        <p class="price">$24</p>
+                    </div>
+                    <div class="mix entrees">
+                        <p class="name">Bouillabaisse</p>
+                        <p class="food-desc">A rich, spicy stew made with our catch of the day (both fish and shellfish).</p>
+                        <p class="price">$29</p>
+                    </div>
+                    <!-- DESSERTS -->
+                    <div class="mix desserts">
+                        <p class="name"><a href="#souffle">Soufflé</a></p>
+                        <p class="price">$8</p>
+                    </div>
+                    <div class="mix desserts">
+                        <p class="name">Éclairs</p>
+                        <p class="price">$9</p>
+                    </div>
+                    <div class="mix desserts">
+                        <p class="name">Macarons</p>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="mix desserts">
+                        <p class="name">Creme brulee</p>
+                        <p class="price">$10</p>
+                    </div>
+
+
+                    <div class="gap"></div>
+                    <div class="gap"></div>
+                </div>
+
+
+
+
+
+
                 <h3>Les Boissons</h3>
                 <div class="menu-item">
                     <h4 class="name">Café au lait</h4>
@@ -141,7 +279,7 @@
 
                 <h3>Les Desserts</h3>
                 <div class="menu-item">
-                    <h4 class="name">Soufflé</h4>
+                    <h4 class="name" id="souffle">Soufflé</h4>
                     <p class="price">$8</p>
                     <p class="food-desc">An egg-based dessert with chocolate sauce and powdered sugar.</p>
                 </div>

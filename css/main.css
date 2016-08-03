@@ -24,6 +24,7 @@ html {
 
 body {
     background-image: url("../img/paper-bg.jpg");
+    background-attachment: fixed;
 }
 
 .visuallyhidden {
@@ -55,7 +56,6 @@ h2 {
     h2 {
         font-size: 3em;
         text-align: left;
-        padding-left: 2em;
     }
 }
 
@@ -299,6 +299,18 @@ form textarea {
     display: block;
     margin-bottom: 20px;
 }
+
+form {
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
 
 
 

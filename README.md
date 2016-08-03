@@ -10,4 +10,8 @@ Advanced Web 2 - Due August 5th, 2016
 
     I used this site to remember the transition properties for my navigation links.
 
+2. [MixItUp jQuery plugin](https://mixitup.kunkalabs.com/)
+
+    This plugin is used on my menu page. Definitely fun to play with, however it did give me considerable pain to work.
+
 ## Comments

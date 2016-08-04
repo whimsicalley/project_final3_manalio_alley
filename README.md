@@ -18,6 +18,10 @@ Advanced Web 2 - Due August 5th, 2016
 
     I used Slick to develop the image slider on the index page. Fairly straightforward, so that was nice. :)
 
+4. [Fake Address Generator](http://www.fakeaddressgenerator.com/World_Address/get_fr_address)
+
+    Gotta love the Internet! Who knew this existed? I used this to create a fake Parisian address/phone number.
+
 ## Comments
 
 1. I know I had stayed after class to ask if I could use Backstretch, and you'll notice that I didn't use it. I wanted to, but I kind of like how clean it is with the tablecloth-like background underneath a white "menu" with all the content. I figured I would stick with the design I already had.

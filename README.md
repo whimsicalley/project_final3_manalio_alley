@@ -30,6 +30,10 @@ Advanced Web 2 - Due August 5th, 2016
 
     I used this to create icons. I loved using it in my resume project so I was happy to use them again.
 
+7. [Text on Image Hover](http://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering)
+
+    I've always like the look over text overlaying an image, but didn't know how to do it. I was happy to find it was a fairly simple process.
+
 ## Comments
 
 1. I know I had stayed after class to ask if I could use Backstretch, and you'll notice that I didn't use it. I wanted to, but I kind of like how clean it is with the tablecloth-like background underneath a white "menu" with all the content. I figured I would stick with the design I already had.

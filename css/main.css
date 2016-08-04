@@ -385,6 +385,49 @@ input[type=submit] {
     width: 100%;
 }
 
+.showcase-wrapper {
+    position: relative;
+}
+
+.showcase-wrapper img {
+    max-width: 500px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    width: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 2em 1em;
+    background: rgba(29, 106, 154, 0.72);
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.5em;
+}
+
+.showcase-wrapper:hover .text-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.text-overlay p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    color: #ffffff;
+}
+
 /********* ABOUT PAGE *********/
 
 .photo {

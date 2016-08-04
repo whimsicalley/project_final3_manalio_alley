@@ -37,3 +37,5 @@ Advanced Web 2 - Due August 5th, 2016
 ## Comments
 
 1. I know I had stayed after class to ask if I could use Backstretch, and you'll notice that I didn't use it. I wanted to, but I kind of like how clean it is with the tablecloth-like background underneath a white "menu" with all the content. I figured I would stick with the design I already had.
+
+2. I noticed on my image slider on the index page, that when I had the border set to all 4 sides, the right border would disappear. Do you have any idea why this might be happening?

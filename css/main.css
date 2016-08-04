@@ -335,7 +335,8 @@ input[type=submit] {
 /********* INDEX ONLY *********/
 
 .image-slider img {
-    border: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
     padding: 1em;
 }
 

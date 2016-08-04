@@ -313,6 +313,17 @@ footer p {
     }
 }
 
+/********* INDEX ONLY *********/
+
+.image-slider img {
+    border: 1px solid #cccccc;
+    padding: 1em;
+}
+
+.full {
+    width: 100%;
+}
+
 /********* CONTACT PAGE *********/
 
 form input,

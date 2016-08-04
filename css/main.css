@@ -269,11 +269,18 @@ section + section {
 /******** Footer ********/
 
 footer {
+    padding: 1em;
     background-color: #ffffff;
     text-align: center;
-    margin: 0.5em;
     opacity: 0.8;
     font-size: 0.8em;
+    margin: 0.6em;
+}
+
+@media all and (min-width: 600px) {
+    footer {
+        margin: 2.4em;
+    }
 }
 
 .footer-content {

@@ -90,7 +90,7 @@ h4 {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     color: #494949;
 }
@@ -297,18 +297,28 @@ footer {
     padding-left: 1.5em;
 }
 
-.button a {
+.button a,
+input[type=submit] {
+    background-color: #eeeeee;
     border: 3px solid #ba553a;
     text-decoration: none;
+    text-transform: uppercase;
     padding: 0.6em 2em;
     color: #ba553a;
     letter-spacing: 1px;
 }
 
-.button a:hover {
+.button a:hover,
+input[type=submit]:hover {
     border: 3px solid #f58c66;
     background-color: #f58c66;
     color: white;
+}
+
+input[type=submit] {
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 /******** Full-width Colors ********/
@@ -378,20 +388,31 @@ figcaption {
 
 /********* CONTACT PAGE *********/
 
-form input,
-form textarea {
-    display: block;
-    margin-bottom: 20px;
+.hours {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: #494949;
 }
 
 form {
     width: 100%;
     margin: auto;
     max-width: 500px;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-bottom: 2em;
 }
 
-input,
-textarea {
+label {
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    display: block;
+    margin: 5px 0 10px 0;
+    border: 1px solid #cccccc;
+    padding: 10px;
     width: 100%;
 }
 

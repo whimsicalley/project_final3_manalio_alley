@@ -389,11 +389,38 @@ input[type=submit] {
     position: relative;
 }
 
+@media all and (min-width: 1100px) {
+    .promotional {
+        width: calc(100% / 2 - 1em);
+        float: left;
+        margin: 0.5em;
+    }
+}
+
+@media all and (min-width: 1100px) {
+    .promotional h3 {
+        text-align: center;
+    }
+}
+
 .showcase-wrapper img {
     max-width: 500px;
     border: 1px solid #cccccc;
     padding: 10px;
     width: 100%;
+}
+
+@media all and (min-width: 600px) {
+    .showcase-wrapper img {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 1100px) {
+    .showcase-wrapper img {
+        display: inline-block;
+    }
 }
 
 .text-overlay {
@@ -403,12 +430,33 @@ input[type=submit] {
     left: 0;
     right: 0;
     margin: 0;
-    padding: 2em 1em;
+    padding: 2.5em 1em;
     background: rgba(29, 106, 154, 0.72);
     text-align: center;
     visibility: hidden;
     opacity: 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+@media all and (min-width: 600px) {
+    .text-overlay {
+        font-size: 2.5em;
+        padding: 2.1em 1em;
+        width: 83%;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 1100px) {
+    .text-overlay {
+        font-size: 2em;
+        padding: 2.5em 1em;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
 }
 
 .showcase-wrapper:hover .text-overlay {

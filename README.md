@@ -22,6 +22,10 @@ Advanced Web 2 - Due August 5th, 2016
 
     Gotta love the Internet! Who knew this existed? I used this to create a fake Parisian address/phone number.
 
+5. [Make a Clickable Phone Link](http://allwebco-templates.com/support/S_smartphone-link.htm)
+
+    Helped me learn how to create a clickable telephone for mobile.
+
 ## Comments
 
 1. I know I had stayed after class to ask if I could use Backstretch, and you'll notice that I didn't use it. I wanted to, but I kind of like how clean it is with the tablecloth-like background underneath a white "menu" with all the content. I figured I would stick with the design I already had.

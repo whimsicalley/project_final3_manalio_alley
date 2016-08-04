@@ -281,6 +281,26 @@ footer {
     margin: 0;
 }
 
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    display: inline;
+    padding: 0 5px;
+}
+
+footer ul li a {
+    color: #ba553a;
+    border: none;
+}
+
+footer ul li a:hover {
+    color: #f58c66;
+    border: none;
+}
+
 /******** Button ********/
 
 .buttonwrapper {

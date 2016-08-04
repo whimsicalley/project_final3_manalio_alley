@@ -137,8 +137,15 @@ nav {
     margin: 40px 0 0 0;
     background-color: #ffffff;
     text-align: center;
-    width: 100%;
     opacity: 0.9;
+    border-radius: 14px;
+    margin: 0.5em;
+}
+
+@media all and (min-width: 600px) {
+    nav {
+        margin: 2em;
+    }
 }
 
 nav ul {
@@ -165,6 +172,14 @@ nav ul li {
     }
 }
 
+@media all and (min-width: 1100px) {
+    nav ul li {
+        font-size: 1.8em;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+}
+
 nav a {
     border: none;
     padding: 0 0.5em 0 0.5em;
@@ -184,6 +199,13 @@ main {
     background-color: #ffffff;
     max-width: 1000px;
     padding: 10px 15px;
+    margin: 0.5em;
+}
+
+@media all and (min-width: 600px) {
+    main {
+        margin: 2em;
+    }
 }
 
 section {
@@ -247,9 +269,10 @@ section + section {
 /******** Footer ********/
 
 footer {
-    margin: 0 0 40px 0;
     background-color: #ffffff;
     text-align: center;
+    margin: 0.5em;
+    opacity: 0.8;
 }
 
 footer p {

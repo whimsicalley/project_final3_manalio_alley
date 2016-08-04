@@ -178,13 +178,15 @@ nav a {
     border: none;
     padding: 0 0.5em 0 0.5em;
     transition: all 0.1s ease-in-out;
+    color: #1b4765;
 }
 
 nav a:hover {
     border: none;
-    background-color: #cccccc;
+    background-color: #eeeeee;
     padding-top: 1em;
     padding-bottom: 1em;
+    color: #faab64;
 }
 
 /******** Main Content ********/
@@ -233,6 +235,7 @@ footer {
     opacity: 0.8;
     font-size: 0.8em;
     margin: 0.6em;
+    border-radius: 15px;
 }
 
 @media all and (min-width: 600px) {

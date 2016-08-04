@@ -46,7 +46,7 @@ body {
 
 h2 {
     font-family: Alex;
-    font-size: 5em;
+    font-size: 4em;
     color: #ef4025;
     text-align: center;
     margin: 0;
@@ -348,6 +348,34 @@ footer {
     width: 100%;
 }
 
+/********* ABOUT PAGE *********/
+
+.photo {
+    width: 100%;
+}
+
+@media all and (min-width: 600px) {
+    .photo {
+        max-width: 300px;
+        float: right;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        margin-left: 20px;
+    }
+}
+
+figure img {
+    border: 1px #cccccc solid;
+    padding: 10px;
+    width: 100%;
+}
+
+figcaption {
+    margin: 1em 0;
+    text-align: center;
+    font-style: italic;
+}
+
 /********* CONTACT PAGE *********/
 
 form input,
@@ -377,7 +405,7 @@ textarea {
     text-align: center;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 1100px) {
     .menu-name {
         float: left;
     }

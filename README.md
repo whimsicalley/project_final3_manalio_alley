@@ -4,6 +4,8 @@ Advanced Web 2 - Due August 5th, 2016
 
 [Original Repo](https://github.com/richardkalehoff/UF-starter-project)
 
+[Live Site](http://alleymanalio.com/project_final3_manalio_alley/)
+
 ## Resources
 
 1. [Using CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
@@ -46,10 +48,10 @@ Advanced Web 2 - Due August 5th, 2016
 
 3. Custom code: I chose to add them both to the About page because it was the least interesting, in my opinion.
 
-    * Custom jQuery: When you click on the image of Gusteau, an image of Remy appears below it's previous sibling, the h3 tag "History." I liked this because in the desktop, they appear side by side. :)
+    * Custom jQuery: When you click on the image of Gusteau, an image of Remy appears below it's previous sibling, the h3 tag "History." A quote below it also appears, as though Remy is talking to the user. I liked this because in the desktop, they appear side by side. :)
 
     * Custom JavaScript: When you click on any of the list items, a new list item adds itself to the bottom of the list discussing holiday hours.
 
 4. I wasn't sure how to correct the addEventListener error message I was getting in DevTools on the pages it didn't apply to.
 
-5. Without question the most challenging project of the semester but, I guess that's why it's the final! Thanks for a great semester, Richard!
+5. Without question the most challenging project of the semester but, I guess that's why it's the final! Thanks for a great semester, Richard, I really learned a lot.

@@ -21,4 +21,13 @@ $(document).ready(function () {
     photo.on('click', function () {
         photo.next().html('<img src="img/remy.jpg">');
     });
+
+    //Creates an extra list item ("We are closed on all major holidays") to the unordered list "Hours of Operation" on the About page
+    var hours = document.getElementById('hours');
+    function addHolidayHours() {
+        var holidayHours = document.createElement('li');
+        holidayHours.innerHTML = 'We are closed on all major holidays.';
+        document.getElementById('hours').appendChild(holidayHours);
+    }
+    hours.addEventListener('click', addHolidayHours);
 });

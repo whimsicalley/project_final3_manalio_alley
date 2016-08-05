@@ -445,12 +445,6 @@ input[type=submit] {
     width: 100%;
 }
 
-.remy {
-    image-background: url("remy");
-    width: 100%;
-    height: auto;
-}
-
 @media all and (min-width: 600px) {
     .photo,
     .remy {
@@ -476,7 +470,7 @@ figcaption {
 
 /********* CONTACT PAGE *********/
 
-.hours {
+#hours {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     color: #494949;

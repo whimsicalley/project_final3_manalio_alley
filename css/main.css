@@ -338,6 +338,7 @@ input[type=submit] {
 /********* INDEX ONLY *********/
 
 .image-slider img {
+    margin-top: 1em;
     border-top: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc;
     padding: 1em;
@@ -393,7 +394,7 @@ input[type=submit] {
     right: 0;
     margin: 0;
     padding: 2.5em 1em;
-    background: rgba(29, 106, 154, 0.72);
+    background: rgba(27, 71, 101, 0.72);
     text-align: center;
     visibility: hidden;
     opacity: 0;

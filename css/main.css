@@ -445,8 +445,15 @@ input[type=submit] {
     width: 100%;
 }
 
+.remy {
+    image-background: url("remy");
+    width: 100%;
+    height: auto;
+}
+
 @media all and (min-width: 600px) {
-    .photo {
+    .photo,
+    .remy {
         max-width: 300px;
         float: right;
         padding: 10px;

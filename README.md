@@ -46,9 +46,9 @@ Advanced Web 2 - Due August 5th, 2016
 
 3. Custom code: I chose to add them both to the About page because it was the least interesting, in my opinion.
 
-    a. Custom jQuery: When you click on the image of Gusteau, an image of Remy appears below it's previous sibling, the h3 tag "History." I liked this because in the desktop, they appear side by side. :)
+        a. Custom jQuery: When you click on the image of Gusteau, an image of Remy appears below it's previous sibling, the h3 tag "History." I liked this because in the desktop, they appear side by side. :)
 
-    b. Custom JavaScript: When you click on any of the list items, a new list item adds itself to the bottom of the list discussing holiday hours.
+        b. Custom JavaScript: When you click on any of the list items, a new list item adds itself to the bottom of the list discussing holiday hours.
 
 4. I wasn't sure how to correct the addEventListener error message I was getting in DevTools on the pages it didn't apply to.
 

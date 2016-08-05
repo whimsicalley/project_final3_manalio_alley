@@ -43,3 +43,9 @@ Advanced Web 2 - Due August 5th, 2016
 1. I know I had stayed after class to ask if I could use Backstretch, and you'll notice that I didn't use it. I wanted to, but I kind of like how clean it is with the tablecloth-like background underneath a white "menu" with all the content. I figured I would stick with the design I already had.
 
 2. I noticed on my image slider on the index page, that when I had the border set to all 4 sides, the right border would disappear. Do you have any idea why this might be happening?
+
+3. Custom code: I chose to add them both to the About page because it was the least interesting, in my opinion.
+
+    a. Custom jQuery: When you click on the image of Gusteau, an image of Remy appears below it's previous sibling, the h3 tag "History." I liked this because in the desktop, they appear side by side. :)
+
+    b. Custom JavaScript: When you click on any of the list items, a new list item adds itself to the bottom of the list discussing holiday hours.

@@ -49,3 +49,7 @@ Advanced Web 2 - Due August 5th, 2016
     a. Custom jQuery: When you click on the image of Gusteau, an image of Remy appears below it's previous sibling, the h3 tag "History." I liked this because in the desktop, they appear side by side. :)
 
     b. Custom JavaScript: When you click on any of the list items, a new list item adds itself to the bottom of the list discussing holiday hours.
+
+4. I wasn't sure how to correct the addEventListener error message I was getting in DevTools on the pages it didn't apply to.
+
+5. Without question the most challenging project of the semester but, I guess that's why it's the final! Thanks for a great semester, Richard!

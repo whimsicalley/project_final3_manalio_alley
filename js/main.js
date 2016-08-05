@@ -29,5 +29,7 @@ $(document).ready(function () {
         holidayHours.innerHTML = 'We are closed on all major holidays.';
         document.getElementById('hours').appendChild(holidayHours);
     }
-    hours.addEventListener('click', addHolidayHours);
+    if (hours === true) {
+        hours.addEventListener('click', addHolidayHours);
+    }
 });
